@@ -1,0 +1,54 @@
+picked-up-price-item: '&f+%price%'
+messages:
+  plugin-not-installed: '&cYou don''t have this plugin installed!'
+  triggered: custom_%id% was triggered!
+  prefix: '&#b4ff33&lEffects&r &8» &r'
+  points-set: '&fSet &a%playername%&f to have &a%amount% &a%point%&f!'
+  must-specify-slot: '&cYou must specify the slot!'
+  cannot-afford-type: '&cYou can''t afford to do this! &fCost: &a%cost% %type%'
+  points-amount: '&6%playername% &rhas &e%amount% &rof &a%point%&r!'
+  points-given: '&a%amount% &a%point% &fwere added to &a%playername%&f!'
+  invalid-point: '&cInvalid point name!'
+  cannot-afford-price: '&cYou can''t afford to do this! &fPrice: %price%'
+  lrcdb-export-error: '&cError exporting config: &f%message%'
+  points-set-all: '&fSet all players to have &a%amount% &a%point%&f!'
+  cannot-afford: '&cYou can''t afford to do this! &fCost: &a$$%cost%'
+  must-specify-player: '&cYou must specify the player!'
+  on-cooldown: '&cThis effect is on cooldown! &fTime left: &a%seconds% seconds'
+  must-specify-category: '&cYou must specify the category!'
+  must-specify-trigger: '&cYou must specify the trigger!'
+  must-specify-amount: '&cYou must specify the amount!'
+  item-data-header: '&aItem data for %player% slot %slot%'
+  points-given-all: '&a%amount% &a%point% &fwere added to all players!'
+  invalid-config-name: '&cInvalid config name!'
+  lrcdb-export-success: '&fExported &a%name%&f! View it on &alrcdb.auxilor.io&f, or
+    share your config ID: &f%id%'
+  invalid-slot: '&cInvalid slot &f%slot%&c! Use any slot accepted by in_slot, such
+    as &fmainhand&c, &foffhand&c, &farmor&c, &fany&c, numeric slots, or comma-separated
+    combinations.'
+  must-specify-config-name: '&cYou must specify the config name!'
+  reloaded: Reloaded!
+  must-specify-point: '&cYou must specify the point!'
+  points-reset-all: '&fReset all players'' &a%point% &f!'
+  invalid-plugin: '&cInvalid plugin name!'
+  points-taken-all: '&a%amount% &a%point% &fwere removed from all players!'
+  must-specify-lrcdb-id: '&cYou must specify the ID of the config to download! Not
+    sure what this means? Go to &alrcdb.auxilor.io'
+  must-specify-dispatcher: '&cYou must specify the dispatcher!'
+  must-specify-plugin: '&cYou must specify the plugin!'
+  not-player: '&cThis command must be run by a player'
+  invalid-category: '&cInvalid category!'
+  lrcdb-import-error: '&cError importing config: &f%message%'
+  debug: Logged information to server console
+  empty-slot: '&c%player%''s slot &f%slot%&c is empty!'
+  invalid-command: '&cUnknown subcommand!'
+  points-taken: '&a%amount% &a%point% &fwere removed from &a%playername%&f!'
+  cannot-transmit: '&cYou can''t transmit here!'
+  invalid-amount: '&cInvalid amount!'
+  invalid-dispatcher: '&cInvalid dispatcher!'
+  no-permission: '&cYou don''t have permission to do this!'
+  lrcdb-import-success: '&fImported &a%name%&f! Reload the plugin to install it'
+  points-reset: '&fReset &a%playername%''s &f%point% &apoints&f!'
+  invalid-player: '&cInvalid player name!'
+infinity: ∞
+

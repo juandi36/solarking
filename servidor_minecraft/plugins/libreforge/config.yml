@@ -1,0 +1,73 @@
+# Options for lrcdb (https://lrcdb.auxilor.io), a website to share configs
+# with other server owners, so you can get more configs without making them
+# yourself!
+
+raytrace-distance: 80
+cannot-afford-type:
+  message-enabled: true
+  sound:
+    sound: BLOCK_NOTE_BLOCK_PLING
+    pitch: 0.5
+    enabled: true
+  in-actionbar: true
+show-libreforge-info: true
+cooldown:
+  message-enabled: true
+  sound:
+    sound: BLOCK_NOTE_BLOCK_PLING
+    pitch: 0.5
+    enabled: true
+  in-actionbar: true
+cannot-afford-price:
+  message-enabled: true
+  sound:
+    sound: BLOCK_NOTE_BLOCK_PLING
+    pitch: 0.5
+    enabled: true
+  in-actionbar: true
+point-names:
+  souls: Souls
+cannot-afford:
+  message-enabled: true
+  sound:
+    sound: BLOCK_NOTE_BLOCK_PLING
+    pitch: 0.5
+    enabled: true
+  in-actionbar: true
+display:
+  item-flags:
+  - hide_attributes
+  enabled: false
+refresh:
+  held:
+    require-meta: true
+  players:
+    skip-afk-players: true
+  pickup:
+    require-meta: true
+    enabled: true
+  inventory-click:
+    timeout: 500
+  entities:
+    interval: 60
+    enabled: true
+  cooldown: 0
+effects:
+  use-setblock-break: false
+  telekinesis:
+    always-process-blocks: true
+    on-players: true
+  multiply_drops:
+    prevent-duplication: true
+    whitelist: []
+opt-in:
+  take_damage_blocks_entity_damage: false
+lrcdb:
+  author: Unknown Author
+  share-configs:
+    publicly: false
+    enabled: true
+  key: ''
+conditions:
+  default-state-off-main-thread: true
+

@@ -1,0 +1,24 @@
+item:
+  item: netherite_boots
+  display-name: "<gradient:#4b0082:#000000>&lʙᴏᴛᴀꜱ ᴅᴇʟ ᴄᴀᴍɪɴᴀɴᴛᴇ</gradient>"
+  lore:
+    - ""
+    - "&d&lʜᴀʙɪʟɪᴅᴀᴅ: ᴘᴀꜱᴏ ᴅᴇʟ ᴀʙɪꜱᴍᴏ"
+    - "&f▸ &dꜱʜɪꜰᴛ x2: &7ᴛᴇʟᴇᴛʀᴀɴꜱᴘᴏʀᴛᴀᴄɪᴏɴ ᴅᴇ 8 ʙʟᴏQᴜᴇꜱ."
+    - ""
+    - "&8ɴᴏ ᴘᴇʀᴛᴇɴᴇᴄᴇꜱ ᴀ ᴇꜱᴛᴇ ᴘʟᴀɴᴏ."
+  bonuses:
+    - id: void_step
+      trigger: sneak
+      conditions:
+        - id: cooldown
+          args:
+            seconds: 10
+      effects:
+        - id: teleport
+          args:
+            distance: 8
+        - id: play_sound
+          args:
+            sound: entity.enderman.teleport
+            volume: 1

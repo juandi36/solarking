@@ -1,0 +1,244 @@
+#
+# EcoPets
+# by Auxilor
+#
+
+discover-recipes: true
+level-gui:
+  progression-slots:
+    next-page:
+      material: arrow
+      name: '&fᴘᴀɢɪɴᴀ ꜱɪɢᴜɪᴇɴᴛᴇ'
+      location:
+        column: 6
+        row: 6
+    pattern:
+    - 109ab0jkl
+    - 2080c0i0m
+    - 3070d0h0n
+    - 4560efg0o
+    - 00000000p
+    - 00000000q
+    in-progress:
+      item: yellow_stained_glass_pane
+      lore:
+      - '&f'
+      - '&fʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ:'
+      - '%rewards%'
+      - '&f'
+      - '&fᴘʀᴏɢʀᴇꜱᴏ:'
+      - '&8» &e%percentage_progress%%'
+      - '&8» &e%current_xp%&8/&7%required_xp% &fXP'
+      name: '%pet% &fLvl. &a%level%'
+      max-level-lore:
+      - '&f'
+      - '&fʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ:'
+      - '%rewards%'
+      - '&f'
+      - '&fᴘʀᴏɢʀᴇꜱᴏ:'
+      - '&8» &e%percentage_progress%%'
+      - '&8» &e%current_xp%&8/&7%required_xp% &fXP'
+    unlocked:
+      item: lime_stained_glass_pane
+      lore:
+      - '&f'
+      - '&fʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ:'
+      - '%rewards%'
+      - '&f'
+      - '&aᴅᴇꜱʙʟᴏǫᴜᴇᴀᴅᴏ'
+      name: '%pet% &fLvl. &a%level%'
+    level-as-amount: true
+    locked:
+      item: red_stained_glass_pane
+      lore:
+      - '&f'
+      - '&fʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ:'
+      - '%rewards%'
+      name: '%pet% &fLvl. &a%level%'
+    close:
+      material: barrier
+      name: '&cᴄᴇʀʀᴀʀ'
+      location:
+        column: 5
+        row: 6
+      enabled: true
+    prev-page:
+      material: arrow
+      name: '&fᴘᴀɢɪɴᴀ ᴀɴᴛᴇʀɪᴏʀ'
+      location:
+        column: 4
+        row: 6
+  custom-slots: []
+  rows: 6
+  mask:
+    pattern:
+    - '111111111'
+    - '111111111'
+    - '111111111'
+    - '111111111'
+    - '111111111'
+    - '111111111'
+    materials:
+    - black_stained_glass_pane
+auto-deactivate-on-condition-fail: true
+pet-entity:
+  scale: 1
+  enabled: true
+  location-y-offset: 0.0
+  item-display:
+    teleport-duration: 3
+    enabled: false
+  location_z_offset: 0.75
+  location-x-offset: 0.75
+  rotation: true
+  bobbing: true
+  rotation-intensity: 20
+  show-hologram: true
+  bobbing-intensity: 1
+  name: '%player%&f''s %pet%&f (Lvl. %level%)'
+level-up:
+  message:
+    message:
+    - '&f'
+    - ' &#d977c2ᴛᴜ ᴍᴀꜱᴄᴏᴛᴀ ʜᴀ ꜱᴜʙɪᴅᴏ ᴅᴇ ɴɪᴠᴇʟ %pet%&#d977c2 ᴀʟ &e ɴɪᴠᴇʟ %level%&#d977c2!'
+    - '&f'
+    - ' &#d977c2&lʀᴇᴄᴏᴍᴘᴇɴꜱᴀꜱ:'
+    - ' %level_up_messages%'
+    - '&f'
+    enabled: true
+  sound:
+    volume: 0.8
+    sound: entity_player_levelup
+    pitch: 1.3
+    category: PLAYER
+    enabled: true
+gui:
+  pet-area:
+    top-left:
+      column: 2
+      row: 3
+    bottom-right:
+      column: 8
+      row: 5
+  deactivate-pet:
+    item: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiZDlhNDViOTY4MWNlYTViMjhjNzBmNzVhNjk1NmIxZjU5NGZlYzg0MGI5NjA3Nzk4ZmIxZTcwNzc2NDQzMCJ9fX0=
+    name: '&cᴅᴇꜱᴀᴄᴛɪᴠᴀʀ ᴍᴀꜱᴄᴏᴛᴀ'
+    location:
+      column: 2
+      row: 6
+  pet-icon:
+    lore:
+    - '%description%'
+    - '&f'
+    - '&fᴇꜰᴇᴄᴛᴏꜱ:'
+    - '%effects%'
+    - ''
+    - '&fᴘʀᴏɢʀᴇꜱᴏ:'
+    - '&8» &e%percentage_progress%%'
+    - '&8» &e%current_xp%&8/&7%required_xp% &fXP'
+    max-level-lore:
+    - '%description%'
+    - '&f'
+    - '&fᴇꜰᴇᴄᴛᴏꜱ:'
+    - '%effects%'
+    - ''
+    - '&fᴘʀᴏɢʀᴇꜱᴏ:'
+    - '&8» &e%percentage_progress%%'
+    - '&8» &e%current_xp%&8/&7%required_xp% &fXP'
+    active-lore:
+    - ''
+    - '&cᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ʏᴀ ᴇꜱᴛᴀ́ ᴀᴄᴛɪᴠᴀ!'
+    click:
+      volume: 1
+      sound: ui_button_click
+      pitch: 1
+      category: UI
+      enabled: true
+    name: '%pet% &fLvl. &a%level%'
+    not-active-lore:
+    - ''
+    - '&eʜᴀɢᴀ ᴄʟɪᴄ ᴘᴀʀᴀ ᴀᴄᴛɪᴠᴀʀ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ!'
+  close:
+    item: barrier
+    name: '&cᴄᴇʀʀᴀʀ'
+    location:
+      column: 5
+      row: 6
+    enabled: true
+  mask:
+    pattern:
+    - '111101111'
+    - '111111111'
+    - '100000001'
+    - '100000001'
+    - '100000001'
+    - '101000111'
+    materials:
+    - black_stained_glass_pane
+  next-page:
+    item: arrow
+    name: '&fᴘᴀɢɪɴᴀ ꜱɪɢᴜɪᴇɴᴛᴇ'
+    location:
+      column: 6
+      row: 6
+  pet-info:
+    no-active:
+      item: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkYzA0OGE3Y2U3OGY3ZGFkNzJhMDdkYTI3ZDg1YzA5MTY4ODFlNTUyMmVlZWQxZTNkYWYyMTdhMzhjMWEifX19
+      lore:
+      - ''
+      - '&cᴀᴄᴛᴜᴀʟᴍᴇɴᴛᴇ ɴᴏ ᴛɪᴇɴᴇꜱ ɴɪɴɢᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ'
+      - '&fᴇʟɪᴊᴀ ᴜɴᴀ ᴅᴇ ʟᴀꜱ ᴏᴘᴄɪᴏɴᴇꜱ ᴀ ᴄᴏɴᴛɪɴᴜᴀᴄɪᴏ́ɴ!'
+      - ''
+      name: '&cᴅᴇꜱᴀᴄᴛɪᴠᴀʀ ᴍᴀꜱᴄᴏᴛᴀ'
+    column: 5
+    active:
+      lore:
+      - '%description%'
+      - '&f'
+      - '&fᴇꜰᴇᴄᴛᴏꜱ:'
+      - '%effects%'
+      - ''
+      - '&fᴘʀᴏɢʀᴇꜱᴏ:'
+      - '&8» &e%percentage_progress%%'
+      - '&8» &e%current_xp%&8/&7%required_xp% &fXP'
+      - ''
+      - '&eʜᴀɢᴀ ᴄʟɪᴄ ᴘᴀʀᴀ ᴠᴇʀ ᴇʟ ᴘʀᴏɢʀᴇꜱᴏ ᴅᴇʟ ɴɪᴠᴇʟ!'
+      name: '%pet% &fLvl. &a%level%'
+      max-level-lore:
+      - '%description%'
+      - '&f'
+      - '&fᴇꜰᴇᴄᴛᴏꜱ:'
+      - '%effects%'
+      - ''
+      - '&fᴘʀᴏɢʀᴇꜱᴏ:'
+      - '&8» &e%percentage_progress%%'
+      - '&8» &e%current_xp%&8/&7%required_xp% &fXP'
+      - ''
+      - '&eʜᴀɢᴀ ᴄʟɪᴄ ᴘᴀʀᴀ ᴠᴇʀ ᴇʟ ᴘʀᴏɢʀᴇꜱᴏ ᴅᴇʟ ɴɪᴠᴇʟ!'
+    row: 1
+  toggle:
+    show-pet:
+      item: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNmNzliMjA3ZDYxZTEyMjUyM2I4M2Q2MTUwOGQ5OWNmYTA3OWQ0NWJmMjNkZjJhOWE1MTI3ZjkwNzFkNGIwMCJ9fX0=
+      lore:
+      - '&f'
+      - '&eᴄʟɪᴄ ᴘᴀʀᴀ ᴍᴏꜱᴛʀᴀʀ ᴛᴜ ᴍᴀꜱᴄᴏᴛᴀ'
+      name: '&aᴍᴏꜱᴛʀᴀʀ ᴍᴀꜱᴄᴏᴛᴀ'
+    hide-pet:
+      item: player_head texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI1YjhlZWQ1YzU2NWJkNDQwZWM0N2M3OWMyMGQ1Y2YzNzAxNjJiMWQ5YjVkZDMxMDBlZDYyODNmZTAxZDZlIn19fQ==
+      lore:
+      - '&f'
+      - '&eʜᴀᴢ ᴄʟɪᴄ ᴘᴀʀᴀ ᴏᴄᴜʟᴛᴀʀ ᴛᴜ ᴍᴀꜱᴄᴏᴛᴀ'
+      name: '&cᴏᴄᴜʟᴛᴀʀ ᴍᴀꜱᴄᴏᴛᴀ'
+    location:
+      column: 8
+      row: 6
+  custom-slots: []
+  rows: 6
+  prev-page:
+    item: arrow
+    name: '&fᴘᴀɢɪɴᴀ ᴀɴᴛᴇʀɪᴏʀ'
+    location:
+      column: 4
+      row: 6
+use-local-storage: false
+

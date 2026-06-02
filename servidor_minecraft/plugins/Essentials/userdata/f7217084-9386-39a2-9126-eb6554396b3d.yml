@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 10.110.122.120
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1780426128666
+  login: 1780425535007
+money: '1000.0'
+last-account-name: PanTajados
+logoutlocation:
+  world: 6f368042-df94-42c8-8122-32ecf6d1b027
+  world-name: world
+  x: 277.80873688216343
+  y: 104.64818757821018
+  z: -98.30000001192093
+  yaw: 73.52960205078125
+  pitch: 16.971210479736328

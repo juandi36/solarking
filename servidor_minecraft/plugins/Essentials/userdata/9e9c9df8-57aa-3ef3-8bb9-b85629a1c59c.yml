@@ -1,0 +1,65 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.194.149
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1774968056529
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774968614631
+  login: 1774967822302
+money: '129647037.6'
+last-account-name: apolofs
+lastlocation:
+  world: 91ff1682-9975-49cb-8ff8-5f6c2e7d09f4
+  world-name: spawn2
+  x: 4.6608714627224
+  y: 64.0
+  z: 26.065376082866734
+  yaw: -79.64788818359375
+  pitch: 17.24996566772461
+logoutlocation:
+  world: ad9a28af-62d8-46b8-aeb2-bdcb8c3137cb
+  world-name: dungeon2
+  x: 270.6582828490203
+  y: 78.0
+  z: 138.438146615818
+  yaw: 68.54443359375
+  pitch: 20.400117874145508
+last-message-reply-recipient: false
+nickname: §6§lꜱʀ.ᴀᴘᴏʟᴏ
+homes:
+  minavip1:
+    world: ac3cdb48-0fe6-4f2d-9c6b-5644b368f855
+    world-name: minas1
+    x: -90.72499206715312
+    y: 88.0
+    z: -101.30910169095864
+    yaw: 32.10028076171875
+    pitch: 4.349977970123291
+  minavip2:
+    world: ac3cdb48-0fe6-4f2d-9c6b-5644b368f855
+    world-name: minas1
+    x: -198.4797114573623
+    y: 96.5
+    z: 85.17486771171701
+    yaw: 178.04971313476562
+    pitch: 9.299997329711914
+  minavip3:
+    world: ac3cdb48-0fe6-4f2d-9c6b-5644b368f855
+    world-name: minas1
+    x: -245.2381873655297
+    y: 93.0
+    z: -125.64657333351012
+    yaw: -47.400177001953125
+    pitch: 16.349958419799805

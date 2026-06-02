@@ -1,0 +1,16 @@
+[2026/06/02 17:32:05 INFO]:           __             _       
+[2026/06/02 17:32:05 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/06/02 17:32:05 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/06/02 17:32:05 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/06/02 17:32:05 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/06/02 17:32:05 INFO]:                   |___/            
+[2026/06/02 17:32:05 INFO]:  By: www.nickuc.com - V 2.0.11
+[2026/06/02 17:32:05 INFO]:  
+[2026/06/02 17:32:05 DEBUG]: Loading the messages_es.yml message file...
+[2026/06/02 17:32:05 DEBUG]: Messages were loaded in 88 ms (single file).
+[2026/06/02 17:32:05 DEBUG]: Settings were loaded in 176 ms.
+[2026/06/02 17:32:05 DEBUG]: Loading database...
+[2026/06/02 17:32:05 INFO]: Download finished (took 554ms, hash = f2f7bbd18381d3277a86a72c893216603cffc78cb0768c540d01265535dedc48)
+[2026/06/02 17:32:05 DEBUG]: Starting logger filter...
+[2026/06/02 17:33:19 INFO]: Update was successfully queued, do not forcibly stop your server. (v2.0.11 048a9b => v2.0.17 ef3c24)
+[2026/06/02 17:33:19 INFO]: Successful plugin core shutdown (took 0.14s)

@@ -1,0 +1,39 @@
+messages:
+  prefix: '&#d977c2&lEcoPets&r &8» &r'
+  gave-current-xp: '&fᴛᴜ ʜᴀꜱ ᴅᴀᴅᴏ &a%xp% &fXP ᴀ %player%&f''s ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛᴜᴀʟᴍᴇɴᴛᴇ
+    ᴀᴄᴛɪᴠᴀ!'
+  need-amount: '&cᴅᴇʙᴇꜱ ᴇꜱᴘᴇᴄɪꜰɪᴄᴀʀ ᴜɴᴀ ᴄᴀɴᴛɪᴅᴀᴅ!'
+  gave-pet: '&fᴇɴᴛʀᴇɢᴀᴅᴏ ᴄᴏɴ ᴇ́xɪᴛᴏ %player%&f ᴀʜᴏʀᴀ ᴛɪᴇɴᴇꜱ ᴀ %pet%&f!'
+  gave-pet-egg: '&fᴇɴᴛʀᴇɢᴀᴅᴏ ᴄᴏɴ ᴇ́xɪᴛᴏ %player%&f ᴀʜᴏʀᴀ ᴛɪᴇɴᴇꜱ ᴀ %pet%&f!'
+  pet-spawned: '&fʜᴀꜱ ꜱᴘᴀᴡɴᴇᴀᴅᴏ ᴀ %pet%&f! '
+  already-has-pet: '&cᴇʟ ᴊᴜɢᴀᴅᴏʀ ʏᴀ ᴛɪᴇɴᴇ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ!'
+  activated-pet: '&fᴛɪᴇɴᴇꜱ ᴀᴄᴛɪᴠᴏ ᴀ %pet%&f!'
+  cancelled-swap-other: '&cThat player is not allowed to swap to that pet!'
+  reset-xp: '&fʜᴀꜱ ʀᴇɪɴɪᴄɪᴀᴅᴏ %player%&f''s %pet%&f XP!'
+  deactivated-pet: '&fᴛɪᴇɴᴇꜱ ᴅᴇꜱᴀᴄᴛɪᴠᴀᴅᴏ ᴀ %pet%&f!'
+  needs-player: '&cᴅᴇʙᴇꜱ ᴇꜱᴘᴇᴄɪꜰɪᴄᴀʀ ᴜɴ ᴊᴜɢᴀᴅᴏʀ!'
+  cancelled-swap: '&cYou are not allowed to swap to that pet!'
+  pet-already-active: '&cʏᴀ ᴛɪᴇɴᴇꜱ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ!'
+  reloaded: ʀᴇᴄᴀʀɢᴀᴅᴏ!
+  needs-pet: '&cᴅᴇʙᴇꜱ ᴇꜱᴘᴇᴄɪꜰɪᴄᴀʀ ᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ!'
+  pet-auto-deactivated: '&cYour %pet%&f pet has been deactivated as you no longer
+    meet the activation conditions!'
+  cancelled-adoption: '&cThat player is not allowed to adopt that pet!'
+  took-pet: '&fSuccessfully took %player%&f''s %pet%&f pet!'
+  invalid-pet: '&cᴍᴀꜱᴄᴏᴛᴀ ɴᴏ ᴠᴀ́ʟɪᴅᴀ!'
+  no-pet-active: '&cɴᴏ ᴛɪᴇɴᴇꜱ ᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ!'
+  not-player: '&cEste comando debe ser ejecutado por un jugador.'
+  doesnt-have-pet: '&cᴇʟ ᴊᴜɢᴀᴅᴏʀ ɴᴏ ᴛɪᴇɴᴇ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ!'
+  invalid-command: '&cꜱᴜʙᴄᴏᴍᴀɴᴅᴏ ᴅᴇꜱᴄᴏɴᴏᴄɪᴅᴏ!'
+  gave-xp: '&fᴛᴜ ʜᴀꜱ ᴅᴀᴅᴏ &a%xp% &fXP ᴀ %player%&f''s %pet%&f!'
+  cannot-spawn-pet: '&cʏᴀ ᴛɪᴇɴᴇꜱ ᴇꜱᴛᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴅᴇꜱʙʟᴏǫᴜᴇᴀᴅᴀ!'
+  invalid-amount: '&cᴄᴀɴᴛɪᴅᴀᴅ ɴᴏ ᴠᴀ́ʟɪᴅᴀ!'
+  no-pet: '&cᴇʟ ᴊᴜɢᴀᴅᴏʀ ɴᴏ ᴛɪᴇɴᴇ ᴜɴᴀ ᴍᴀꜱᴄᴏᴛᴀ ᴀᴄᴛɪᴠᴀ.!'
+  no-permission: '&cNo tienes permiso para hacer esto!'
+  cannot-activate-pet: '&cYou don''t meet the conditions to activate the %pet%&f pet!'
+  invalid-player: '&cᴊᴜɢᴀᴅᴏʀ ɴᴏ ᴠᴀ́ʟɪᴅᴏ!'
+infinity: ∞
+menu:
+  title: '&#BC1010&lᴘ&#C45151&lᴇ&#CC9393&lᴛ&#D4D4D4&lꜱ'
+  level-title: '%pet%'
+
